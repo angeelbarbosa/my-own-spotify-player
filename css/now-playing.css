@@ -1,12 +1,38 @@
 .nowPlaying{
   border: 1px solid red;
   display: flex;
+  gap: .5rem;
+}
+
+.nowPlaying-cover img{
+/* border: 1px solid red; */
+inline-size: 3.5rem;
+block-size: 3.5rem;
+vertical-align: middle;
+
 }
 
 .nowPlaying-details{
   display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
 /* .nowPlaying-description a{
   max-inline-size: 10px;
 
 } */
+
+.nowPlaying-title{
+  /* border: 1px solid greenyellow; */
+  color: var(--white);
+  font: var(--baseFontBold);
+  text-decoration: none;
+  display: block;
+}
+
+.nowPlaying-artist{
+/* border: 1px solid red; */
+  color: var(--gray10);
+  font: var(--small);
+  text-decoration: none;
+}
