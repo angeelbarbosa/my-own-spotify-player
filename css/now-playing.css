@@ -1,0 +1,12 @@
+.nowPlaying{
+  border: 1px solid red;
+  display: flex;
+}
+
+.nowPlaying-details{
+  display: flex;
+}
+/* .nowPlaying-description a{
+  max-inline-size: 10px;
+
+} */

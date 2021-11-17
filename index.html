@@ -13,6 +13,64 @@
   <title>Spotifu</title>
 </head>
 <body class="body">
+  <div class="nowPlaying">
+    <img src="./images/carti-coverArt.png" width="56" height="56" title="Cover Art Stop Breathing - PlayboiCarti" alt="Cover Art Stop Breathing - PlayboiCarti">
+    <div class="nowPlaying-details">
+     <div class="nowPlaying-description">
+      <a href="#Stop Breathing" class="nowPLaying-title">
+        Stop Breathing
+      </a>
+      <a href="#PlayboiCarti" class="nowPlaying-artist">
+        PlayboiCarti
+      </a>
+     </div>
+     <div class="nowPlaying-actions">
+      <button class="player-control" role="switch" title="Add to your library" aria-label="Save to library" >
+        <i class="icon-heart" aria-hidden="true" ></i>
+      </button>
+     </div>
+    </div>
+  </div>
+
+  <div class="playerControls">
+    <div class="playerControls-buttons" aria-label="Player Controls">
+      <button class="buttonIcon" aria-label="Previous" title="Previous">
+        <i class="icon-prev" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon is-white" aria-label="Play" title="Play">
+        <i class="icon-play" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon" aria-label="Next" title="Next">
+        <i class="icon-next" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="playerPlayback">
+      <span class="playerPlayback-progressTime">01:40</span>
+      <div class="playerPlayback-slider">
+        <div class="slider">
+          <div class="slider-progress">
+            <button class="slider-button" aria-label="Control playback progress"></button>
+          </div>
+        </div>
+
+      </div>
+      <span class="playerPlayback-progressTime">01:40</span>
+    </div>
+  </div>
+
+  <div class="playerVolume">
+    <button class="player-control" title= "Mute" aria-label="Mute" aria-describedby="volume-icon">
+      <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volume high"></i>
+    </button>
+    <div class="playerVolume-slider">
+      <div class="slider">
+        <div class="slider-progress">
+          <button class="slider-button" aria-label="Control playback progress"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="sidebar">
     <header class="logo">
       <a href="/" ariat-current="page">
@@ -124,11 +182,6 @@
 
 
 
-    <button class="buttonIcon is-white"  aria-label="Play" title="Play">
-      <i class="icon-play" aria-hidden="true"></i>
-    </button>
-    <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-      <i class="icon-play" aria-hidden="true"></i>
 
   </div>
 </body>

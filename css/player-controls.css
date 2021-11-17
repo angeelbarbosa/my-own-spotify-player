@@ -1,0 +1,14 @@
+.playerControls{
+/* border: 1px solid red; */
+display: flex;
+flex-direction: column;
+gap: .25rem;
+/* ^can also use margin-bottom and avoid using flex on this ocasion */
+}
+
+.playerControls-buttons{
+/* border: 1px solid green; */
+display: flex;
+gap: 1rem;
+justify-content: center;
+}
