@@ -5,14 +5,14 @@
 @import './button-icon.css';
 @import './sidebar.css';
 @import './ellipsis.css';
-@import './slider.css';
-@import './player-controls.css';
-@import './player-playback.css';
-@import './player-volume.css';
 @import './player.css';
-@import './now-playing.css';
+@import './playlist-a.css';
+@import './playlist-b.css';
+@import './playlist-list.css';
+
 
 :root{
+  font-size: 16px;
   --primary: #00B050;
   --white: #FFFFFF;
   --gray10: #B3B3B3;
