@@ -1,0 +1,6 @@
+.sticky{
+  position: sticky;
+  top: 0;
+  /* z-index 1 allows it to be on top of everything(unless you have another item w z1) */
+  z-index: 1;
+}
