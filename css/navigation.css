@@ -1,0 +1,30 @@
+.navigation{
+  /* border: 1px solid red; */
+  /* flex-shrink makes the buttons stay in line instead og senfing one down when shrinked */
+  flex-shrink: 0;
+}
+
+.navigation button{
+  /* border: 1px solid red; */
+  inline-size: 1.875rem;
+  block-size: 1.875rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--gray60);
+  color: var(--gray10);
+}
+
+.navigation button:disabled{
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.navigation-back i{
+  position: relative;
+  left: -1px;
+}
+
+.navigation-next i{
+  position: relative;
+  left: 2px;
+}
