@@ -1,0 +1,30 @@
+.justifyContent{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+  border: 1px solid red;
+}
+
+
+.spaceBetween{
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.spaceBetween ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.spaceBetween > img{
+  height: 50px;
+  border-radius: 50%;
+}
+/* .justifyContent > img{
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}  */
