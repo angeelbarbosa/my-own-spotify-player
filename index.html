@@ -10,267 +10,584 @@
   <meta property="og:url" content="angeelbarbosa.github.io/my-own-spotify-player" />
   <meta property="og:image" content="https://angeelbarbosa.github.io/my-own-spotify-player/images/spotifu-logo.png" />
   <link rel="stylesheet" href="./css/index.css">
-  <title>Spotifu</title>
+  <title> FLEXTIFY </title>
 </head>
 <body class="body">
+  <div class="page">
 
-  <section class="playlistList" aria-labelledby="region1">
-    <div class="playlistList-top">
-      <h2 class="playlistList-title" id="region1">
-        Personal Playlists
-      </h2>
+    <div class="sticky">
+    <div class="page-block">
+        <header class="header" aria-label="Top Bar and User's menu">
+          <div class="navigation">
+            <button class="navigation-back" aria-label="Back" title="Back">
+              <i class="icon-arrowLeft" aria-hidden="true"></i>
+            </button>
+            <button class="navigation-next" disabled aria-label="Forward" title="Forward">
+              <i class="icon-arrowRight" aria-hidden="true"></i>
+            </button>
+          </div>
+          <form class= "search"  role="search" aria-label="Search Artists, songs or podcasts">
+            <i class="icon-search" aria-hidden="true"></i>
+              <input type="search" placeholder="Search artists, songs or podcasts">
+          </form>
+        </header>
+
+      </div>
     </div>
-    <div class="playlistList-container">
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/juice-best.jpeg" width="76 height="76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Juice WRLD </h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title="Play Best of Juice WRLD"aria-label="Play Best of Juice WRLD">
-              <i class="icon-play" aria-hiddent="true" ></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/carti-best.png" width="76 height=" 76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Playboi Carti</h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title="Play Best of Playboi Carti" aria-label="Play Best of Playboi Carti">
-              <i class="icon-play" aria-hiddent="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/uzi-best.jpeg" width="76 height=" 76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Lil Uzi Vert</h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title="Play Best of Lil Uzi Vert" aria-label="Play Best of Lil Uzi Vert">
-              <i class="icon-play" aria-hiddent="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/keem_best.jpeg" width="76 height=" 76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Baby Keem</h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title=" Play Best of Baby Keem " aria-label="Play Best of Baby Keem ">
-              <i class="icon-play" aria-hiddent="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/travis-best.jpeg" width="76 height=" 76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Travis Scott</h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title=" Play Best of Travis Scott " aria-label="Play Best of Travis Scott">
-              <i class="icon-play" aria-hiddent="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/gunna-best.jpeg" width="76 height=" 76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Gunna</h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title="Play Best of Gunna " aria-label="Play Best of Gunna">
-              <i class="icon-play" aria-hiddent="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/thug-best.jpeg" width="76 height=" 76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Young Thugh</h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title="Play Best of Young Thugh" aria-label="Play Best of Young Thugh">
-              <i class="icon-play" aria-hiddent="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/drake-best.jpg" width="76 height=" 76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Drake</h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title="Play Best of Drake " aria-label="Play Best of Drake ">
-              <i class="icon-play" aria-hiddent="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="playlistB">
-        <div class="playlistB-cover">
-          <img src="./images/baby-best.jpeg" width="76 height=" 76" alt="">
-        </div>
-        <div class="playlistB-details">
-          <h3 class="playlistB-title">Best of Lil Baby</h3>
-          <div class="playlistB-control">
-            <button class="buttonIcon is-primary" title="Play Best of Lil Baby" aria-label="Play Best of Lil Baby">
-              <i class="icon-play" aria-hiddent="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
 
-  </section>
+    <main class="page-block">
+      <section class="playlistList" aria-labelledby="region1">
+        <div class="playlistList-top">
+          <h2 class="playlistList-title" id="region1">
+            Personal Playlists
+          </h2>
+          <div class="navigation">
+            <button class="navigation-back" aria-label="Back" title="Back">
+              <i class="icon-arrowLeft" aria-hidden="true"></i>
+            </button>
+            <button class="navigation-next" disabled aria-label="Forward" title="Forward">
+              <i class="icon-arrowRight" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="playlistList-container">
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/juice-best.jpeg" width="76 height="76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Juice WRLD </h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title="Play Best of Juice WRLD"aria-label="Play Best of Juice WRLD">
+                  <i class="icon-play" aria-hiddent="true" ></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/carti-best.png" width="76 height=" 76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Playboi Carti</h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title="Play Best of Playboi Carti" aria-label="Play Best of Playboi Carti">
+                  <i class="icon-play" aria-hiddent="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/uzi-best.jpeg" width="76 height=" 76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Lil Uzi Vert</h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title="Play Best of Lil Uzi Vert" aria-label="Play Best of Lil Uzi Vert">
+                  <i class="icon-play" aria-hiddent="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/keem_best.jpeg" width="76 height=" 76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Baby Keem</h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title=" Play Best of Baby Keem " aria-label="Play Best of Baby Keem ">
+                  <i class="icon-play" aria-hiddent="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/travis-best.jpeg" width="76 height=" 76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Travis Scott</h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title=" Play Best of Travis Scott " aria-label="Play Best of Travis Scott">
+                  <i class="icon-play" aria-hiddent="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/gunna-best.jpeg" width="76 height=" 76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Gunna</h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title="Play Best of Gunna " aria-label="Play Best of Gunna">
+                  <i class="icon-play" aria-hiddent="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/thug-best.jpeg" width="76 height=" 76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Young Thugh</h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title="Play Best of Young Thugh" aria-label="Play Best of Young Thugh">
+                  <i class="icon-play" aria-hiddent="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/drake-best.jpg" width="76 height=" 76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Drake</h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title="Play Best of Drake " aria-label="Play Best of Drake ">
+                  <i class="icon-play" aria-hiddent="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="playlistB">
+            <div class="playlistB-cover">
+              <img src="./images/baby-best.jpeg" width="76 height=" 76" alt="">
+            </div>
+            <div class="playlistB-details">
+              <h3 class="playlistB-title">Best of Lil Baby</h3>
+              <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title="Play Best of Lil Baby" aria-label="Play Best of Lil Baby">
+                  <i class="icon-play" aria-hiddent="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
 
-  <section class="playlistList" aria-labelledby="region1">
-    <div class="playlistList-top">
-      <h2 class="playlistList-title" id="region1">
-        Recently Played
-      </h2>
+      </section>
+
+      <section class="playlistList" aria-labelledby="region2">
+        <div class="playlistList-top">
+          <h2 class="playlistList-title" id="region2">
+            Recently Played
+          </h2>
+          <div class="navigation">
+            <button class="navigation-back" aria-label="Back" title="Back">
+              <i class="icon-arrowLeft" aria-hidden="true"></i>
+            </button>
+            <button class="navigation-next" disabled aria-label="Forward" title="Forward">
+              <i class="icon-arrowRight" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="playlistList-container">
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/wlr-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Whole Lotta Red</h3>
+            <h4 class="playlistA-description">Playboi Carti</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/juice-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Goodbye & Good Riddance</h3>
+            <h4 class="playlistA-description">Juice WRLD</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/uzi-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Eternal Atake</h3>
+            <h4 class="playlistA-description">Lil Uzi Vert</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/mdb-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> The Melodic Blue</h3>
+            <h4 class="playlistA-description">Baby Keem</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/wunna.cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> WUNNA (Deluxe)</h3>
+            <h4 class="playlistA-description">Gunna</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/shelby.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Shelby</h3>
+            <h4 class="playlistA-description">Lil Skies</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/off-season-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> The Off-Season</h3>
+            <h4 class="playlistA-description">J. Cole</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/donda-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Donda</h3>
+            <h4 class="playlistA-description">Kanye West</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/boat-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Nuthin' 2 Prove</h3>
+            <h4 class="playlistA-description">Lil Yatchy</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/ttravis-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Astroworld</h3>
+            <h4 class="playlistA-description">Travis Scott</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/trippie-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> LIFE'S A TRIP</h3>
+            <h4 class="playlistA-description">Trippie Redd</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/bad-bunny-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> YHLQMDLG</h3>
+            <h4 class="playlistA-description">Bad Bunny</h4>
+          </div>
+
+        </div>
+      </section>
+      <section class="playlistList" aria-labelledby="region3">
+        <div class="playlistList-top">
+          <h2 class="playlistList-title" id="region3">
+            Podcasts
+          </h2>
+          <div class="navigation">
+            <button class="navigation-back" aria-label="Back" title="Back">
+              <i class="icon-arrowLeft" aria-hidden="true"></i>
+            </button>
+            <button class="navigation-next" disabled aria-label="Forward" title="Forward">
+              <i class="icon-arrowRight" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="playlistList-container">
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/wlr-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Whole Lotta Red</h3>
+            <h4 class="playlistA-description">Playboi Carti</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/juice-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Goodbye & Good Riddance</h3>
+            <h4 class="playlistA-description">Juice WRLD</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/uzi-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Eternal Atake</h3>
+            <h4 class="playlistA-description">Lil Uzi Vert</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/mdb-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> The Melodic Blue</h3>
+            <h4 class="playlistA-description">Baby Keem</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/wunna.cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> WUNNA (Deluxe)</h3>
+            <h4 class="playlistA-description">Gunna</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/shelby.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Shelby</h3>
+            <h4 class="playlistA-description">Lil Skies</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/off-season-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> The Off-Season</h3>
+            <h4 class="playlistA-description">J. Cole</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/donda-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Donda</h3>
+            <h4 class="playlistA-description">Kanye West</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/boat-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Nuthin' 2 Prove</h3>
+            <h4 class="playlistA-description">Lil Yatchy</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/ttravis-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Astroworld</h3>
+            <h4 class="playlistA-description">Travis Scott</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/trippie-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> LIFE'S A TRIP</h3>
+            <h4 class="playlistA-description">Trippie Redd</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/bad-bunny-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> YHLQMDLG</h3>
+            <h4 class="playlistA-description">Bad Bunny</h4>
+          </div>
+
+        </div>
+      </section>
+      <section class="playlistList" aria-labelledby="region4">
+        <div class="playlistList-top">
+          <h2 class="playlistList-title" id="region4">
+            Best songs ever
+          </h2>
+          <div class="navigation">
+            <button class="navigation-back" aria-label="Back" title="Back">
+              <i class="icon-arrowLeft" aria-hidden="true"></i>
+            </button>
+            <button class="navigation-next" disabled aria-label="Forward" title="Forward">
+              <i class="icon-arrowRight" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="playlistList-container">
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/wlr-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Whole Lotta Red</h3>
+            <h4 class="playlistA-description">Playboi Carti</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/juice-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Goodbye & Good Riddance</h3>
+            <h4 class="playlistA-description">Juice WRLD</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/uzi-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Eternal Atake</h3>
+            <h4 class="playlistA-description">Lil Uzi Vert</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/mdb-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> The Melodic Blue</h3>
+            <h4 class="playlistA-description">Baby Keem</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/wunna.cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> WUNNA (Deluxe)</h3>
+            <h4 class="playlistA-description">Gunna</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/shelby.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Shelby</h3>
+            <h4 class="playlistA-description">Lil Skies</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/off-season-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> The Off-Season</h3>
+            <h4 class="playlistA-description">J. Cole</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/donda-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Donda</h3>
+            <h4 class="playlistA-description">Kanye West</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/boat-cover.jpeg" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Nuthin' 2 Prove</h3>
+            <h4 class="playlistA-description">Lil Yatchy</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/ttravis-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> Astroworld</h3>
+            <h4 class="playlistA-description">Travis Scott</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/trippie-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> LIFE'S A TRIP</h3>
+            <h4 class="playlistA-description">Trippie Redd</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/bad-bunny-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> YHLQMDLG</h3>
+            <h4 class="playlistA-description">Bad Bunny</h4>
+          </div>
+
+        </div>
+      </section>
+    </main>
     </div>
-    <div class="playlistList-container">
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/wlr-cover.png" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> Whole Lotta Red</h3>
-        <h4 class="playlistA-description">Playboi Carti</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/juice-cover.jpeg" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> Goodbye & Good Riddance</h3>
-        <h4 class="playlistA-description">Juice WRLD</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/uzi-cover.png" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> Eternal Atake</h3>
-        <h4 class="playlistA-description">Lil Uzi Vert</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/mdb-cover.png" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> The Melodic Blue</h3>
-        <h4 class="playlistA-description">Baby Keem</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/wunna.cover.jpeg" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> WUNNA (Deluxe)</h3>
-        <h4 class="playlistA-description">Gunna</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/shelby.png" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> Shelby</h3>
-        <h4 class="playlistA-description">Lil Skies</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/off-season-cover.jpeg" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> The Off-Season</h3>
-        <h4 class="playlistA-description">J. Cole</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/donda-cover.jpeg" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> Donda</h3>
-        <h4 class="playlistA-description">Kanye West</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/boat-cover.jpeg" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> Nuthin' 2 Prove</h3>
-        <h4 class="playlistA-description">Lil Yatchy</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/ttravis-cover.png" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> Astroworld</h3>
-        <h4 class="playlistA-description">Travis Scott</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/trippie-cover.png" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> LIFE'S A TRIP</h3>
-        <h4 class="playlistA-description">Trippie Redd</h4>
-      </div>
-      <div class="playlistA">
-        <div class="playlistA-cover">
-          <img src="./images/bad-bunny-cover.png" width="150" height="150" alt="//////////">
-          <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-        </div>
-        <h3 class="playlistA-title"> YHLQMDLG</h3>
-        <h4 class="playlistA-description">Bad Bunny</h4>
-      </div>
 
-    </div>
-  </section>
 
 
 
@@ -282,7 +599,7 @@
         <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
       </a>
     </header>
-    <nav class="menu" aria-label="Main">
+    <nav class="menu" aria-label="Main Menu">
       <ul class="menu-list">
         <li class="menu-item is-active">
           <a href="/" class="link" aria-current="page">
