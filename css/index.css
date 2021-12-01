@@ -6,8 +6,9 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './player.css';
-
 @import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
 
 
 
@@ -29,4 +30,13 @@
   --button: bold .875rem/1rem var(--baseFontFamily);
   --small: normal .75em/normal var(--baseFontFamily);
 }
+
+@media screen and (min-width: 768px){
+:root{
+  font-size: 17px;
+}
+@media screen and (min-width: 1367px){
+  :root{
+    font-size: 18px;
+  }
 

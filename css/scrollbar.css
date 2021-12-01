@@ -1,0 +1,23 @@
+::-webkit-scrollbar{
+  /* background:s; */
+  inline-size: .5rem;
+  block-size: .5rem;
+}
+
+/* ::-webkit-scrollbar-button{
+  background: blue;
+} */
+
+::-webkit-scrollbar-track{
+  background: var(--gray50);
+}
+
+/* thumb is the one that moves along with the scroll */
+::-webkit-scrollbar-thumb{
+  background: var(--gray60);
+  border-radius: 500px;
+}
+
+::-webkit-scrollbar-thumb:vertical{
+  background: var(--gray40);
+}
