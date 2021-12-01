@@ -1,0 +1,42 @@
+.menu-item{
+
+}
+
+
+.menu-item a{
+  display: flex;
+  /* display block so it takes up the whole menu margin and not just the inside item */
+  font: var(--button);
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  /* put padding on both ends, even if it doesnt show */
+  block-size: 2.5rem;
+  /* line-height: 2.5rem; */
+  align-items: center;
+  gap: .5rem;
+}
+
+.menu-item a:hover{
+  text-decoration: none;
+}
+
+.menu-item [class^="icon-"]{
+  font-size: 1.5rem;
+}
+
+.menu-item.is-active a{
+  box-shadow: inset 4px 0 0 var(--primary);
+  color: var(--white);
+}
+
+.menu-item.menu-item.is-active .icon-home::before{
+  content: "\e909";
+}
+
+.menu-item.menu-item.is-active .icon-search::before{
+  content: "\e913";
+}
+
+/* .menu-item.menu-item.is-active .icon-creditCard::before{
+  content: "\e906";
+} */

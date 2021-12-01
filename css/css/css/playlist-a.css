@@ -1,0 +1,66 @@
+.playlistA{
+  /* border: 1px solid red; */
+  /* font-size: 14px; */
+  /* "em" takes the base font size from basefont, if we chance the size here^ everything in this section would change */
+  inline-size: 13em;
+  padding: 1rem;
+  border-radius: .25rem;
+  background: var(--gray40);
+  box-sizing: border-box;
+  transition: .3s background;
+
+}
+
+/* we use "within" to focus when using key TAB without using mouse */
+/* use comma to seperate and give same effects */
+.playlistA:hover, .playlistA:focus-within{
+  background: var(--gray30  );
+  cursor: pointer;
+
+}
+
+.playlistA-cover img{
+  vertical-align: middle;
+  /* if root font size changes will make it extend to its 100% given */
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.playlistA-cover{
+  position: relative;
+  border-radius: .75rem;
+  overflow: hidden;
+  margin-block-end: 1rem;
+}
+.playlistA:hover .playlistA-cover button,
+.playlistA:focus-within .playlistA-cover button{
+  /* display: block; */
+  /* use opacity to make transition less agressive */
+  opacity: 1;
+  transform: translateY(0);
+
+}
+
+.playlistA button{
+  position: absolute;
+  right: .5rem;
+  bottom: .5rem;
+  /* display: none; */
+  /* use opacity to make it less agressive when hovering */
+  opacity: 0;
+  transform: translateY(.5rem);
+  will-change: opacity, transform;
+  transition: .3s opacity, .3s transform;
+
+}
+
+.playlistA-title{
+  font: var(--baseFontBold);
+  color: var(--white);
+  margin: 0;
+}
+
+.playlistA-description{
+  font: var(--baseFont);
+  margin: 0;
+}
