@@ -12,11 +12,135 @@
   <link rel="stylesheet" href="./css/index.css">
   <title> FLEXTIFY </title>
 </head>
+
 <body class="body">
-  <div class="page">
+  <div class="layout">
+    <div class="layout-block">
+      <div class="layout-sidebar">
+        <div class="sidebar">
+          <header class="logo">
+            <a href="/" ariat-current="page">
+              <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
+            </a>
+          </header>
+          <nav class="menu" aria-label="Main Menu">
+            <ul class="menu-list">
+              <li class="menu-item is-active">
+                <a href="/" class="link" aria-current="page">
+                  <i class="icon-home" aria-hidden="true"></i>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="menu-item ">
+                <a href="/" class="link">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <span>Search</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="/" class="link">
+                  <i class="icon-creditCard" aria-hidden="true"></i>
+                  <span>Premium</span>
+                </a>
+              </li>
+            </ul>
+
+          </nav>
+          <nav class="list" aria-labelledby="library-navigation">
+            <h2 class="list-title" id="library-navigation">Your Library</h2>
+            <ul class="list-content">
+              <li class="list-item">
+                <a href="#" class="link"> Made for you </a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link"> Recently Played </a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link"> Your Likes </a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link"> Artists </a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link"> Podcasts </a>
+              </li>
+
+
+
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="playlist-navigation">
+            <h2 class="list-title" id="playlist-navigation">Playlists </h2>
+            <ul class="list-content">
+              <li class="list-item">
+                <!-- did not add ellipsis class to show possible overflow difference -->
+                <a href="#" class="link"> Carti playlist</a>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Juice playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Uzi playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Travis playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Boat playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Gunna playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> This is a Baby Keem playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Trippie playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Bad Bunny playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> This title was made long to generate "..." </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Angel's playlist </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link"> Barbosa's playlist </a>
+                </span>
+              </li>
+            </ul>
+
+          </nav>
+        </div>
+      </div>
+      <div class="layout-main">
+      <div class="page">
 
     <div class="sticky">
-    <div class="page-block">
+      <div class="page-block">
         <header class="header" aria-label="Top Bar and User's menu">
           <div class="navigation">
             <button class="navigation-back" aria-label="Back" title="Back">
@@ -26,9 +150,9 @@
               <i class="icon-arrowRight" aria-hidden="true"></i>
             </button>
           </div>
-          <form class= "search"  role="search" aria-label="Search Artists, songs or podcasts">
+          <form class="search" role="search" aria-label="Search Artists, songs or podcasts">
             <i class="icon-search" aria-hidden="true"></i>
-              <input type="search" placeholder="Search artists, songs or podcasts">
+            <input type="search" placeholder="Search artists, songs or podcasts">
           </form>
         </header>
 
@@ -53,13 +177,14 @@
         <div class="playlistList-container">
           <div class="playlistB">
             <div class="playlistB-cover">
-              <img src="./images/juice-best.jpeg" width="76 height="76" alt="">
+              <img src="./images/juice-best.jpeg" width="76 height=" 76" alt="">
             </div>
             <div class="playlistB-details">
               <h3 class="playlistB-title">Best of Juice WRLD </h3>
               <div class="playlistB-control">
-                <button class="buttonIcon is-primary" title="Play Best of Juice WRLD"aria-label="Play Best of Juice WRLD">
-                  <i class="icon-play" aria-hiddent="true" ></i>
+                <button class="buttonIcon is-primary" title="Play Best of Juice WRLD"
+                  aria-label="Play Best of Juice WRLD">
+                  <i class="icon-play" aria-hiddent="true"></i>
                 </button>
               </div>
             </div>
@@ -71,7 +196,8 @@
             <div class="playlistB-details">
               <h3 class="playlistB-title">Best of Playboi Carti</h3>
               <div class="playlistB-control">
-                <button class="buttonIcon is-primary" title="Play Best of Playboi Carti" aria-label="Play Best of Playboi Carti">
+                <button class="buttonIcon is-primary" title="Play Best of Playboi Carti"
+                  aria-label="Play Best of Playboi Carti">
                   <i class="icon-play" aria-hiddent="true"></i>
                 </button>
               </div>
@@ -84,7 +210,8 @@
             <div class="playlistB-details">
               <h3 class="playlistB-title">Best of Lil Uzi Vert</h3>
               <div class="playlistB-control">
-                <button class="buttonIcon is-primary" title="Play Best of Lil Uzi Vert" aria-label="Play Best of Lil Uzi Vert">
+                <button class="buttonIcon is-primary" title="Play Best of Lil Uzi Vert"
+                  aria-label="Play Best of Lil Uzi Vert">
                   <i class="icon-play" aria-hiddent="true"></i>
                 </button>
               </div>
@@ -97,7 +224,8 @@
             <div class="playlistB-details">
               <h3 class="playlistB-title">Best of Baby Keem</h3>
               <div class="playlistB-control">
-                <button class="buttonIcon is-primary" title=" Play Best of Baby Keem " aria-label="Play Best of Baby Keem ">
+                <button class="buttonIcon is-primary" title=" Play Best of Baby Keem "
+                  aria-label="Play Best of Baby Keem ">
                   <i class="icon-play" aria-hiddent="true"></i>
                 </button>
               </div>
@@ -110,7 +238,8 @@
             <div class="playlistB-details">
               <h3 class="playlistB-title">Best of Travis Scott</h3>
               <div class="playlistB-control">
-                <button class="buttonIcon is-primary" title=" Play Best of Travis Scott " aria-label="Play Best of Travis Scott">
+                <button class="buttonIcon is-primary" title=" Play Best of Travis Scott "
+                  aria-label="Play Best of Travis Scott">
                   <i class="icon-play" aria-hiddent="true"></i>
                 </button>
               </div>
@@ -136,7 +265,8 @@
             <div class="playlistB-details">
               <h3 class="playlistB-title">Best of Young Thugh</h3>
               <div class="playlistB-control">
-                <button class="buttonIcon is-primary" title="Play Best of Young Thugh" aria-label="Play Best of Young Thugh">
+                <button class="buttonIcon is-primary" title="Play Best of Young Thugh"
+                  aria-label="Play Best of Young Thugh">
                   <i class="icon-play" aria-hiddent="true"></i>
                 </button>
               </div>
@@ -326,13 +456,24 @@
         <div class="playlistList-container">
           <div class="playlistA">
             <div class="playlistA-cover">
-              <img src="./images/wlr-cover.png" width="150" height="150" alt="//////////">
+              <img src="./images/boat-cover.jpeg" width="150" height="150" alt="//////////">
               <button class="buttonIcon is-primary" aria-label="Play" title="Play">
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
-            <h3 class="playlistA-title"> Whole Lotta Red</h3>
-            <h4 class="playlistA-description">Playboi Carti</h4>
+            <h3 class="playlistA-title"> Nuthin' 2 Prove</h3>
+            <h4 class="playlistA-description">Lil Yatchy</h4>
+          </div>
+
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/bad-bunny-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> YHLQMDLG</h3>
+            <h4 class="playlistA-description">Bad Bunny</h4>
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
@@ -351,8 +492,19 @@
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
+
             <h3 class="playlistA-title"> Eternal Atake</h3>
             <h4 class="playlistA-description">Lil Uzi Vert</h4>
+          </div>
+          <div class="playlistA">
+            <div class="playlistA-cover">
+              <img src="./images/trippie-cover.png" width="150" height="150" alt="//////////">
+              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 class="playlistA-title"> LIFE'S A TRIP</h3>
+            <h4 class="playlistA-description">Trippie Redd</h4>
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
@@ -404,16 +556,7 @@
             <h3 class="playlistA-title"> Donda</h3>
             <h4 class="playlistA-description">Kanye West</h4>
           </div>
-          <div class="playlistA">
-            <div class="playlistA-cover">
-              <img src="./images/boat-cover.jpeg" width="150" height="150" alt="//////////">
-              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-                <i class="icon-play" aria-hidden="true"></i>
-              </button>
-            </div>
-            <h3 class="playlistA-title"> Nuthin' 2 Prove</h3>
-            <h4 class="playlistA-description">Lil Yatchy</h4>
-          </div>
+
           <div class="playlistA">
             <div class="playlistA-cover">
               <img src="./images/ttravis-cover.png" width="150" height="150" alt="//////////">
@@ -426,24 +569,16 @@
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
-              <img src="./images/trippie-cover.png" width="150" height="150" alt="//////////">
+              <img src="./images/wlr-cover.png" width="150" height="150" alt="//////////">
               <button class="buttonIcon is-primary" aria-label="Play" title="Play">
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
-            <h3 class="playlistA-title"> LIFE'S A TRIP</h3>
-            <h4 class="playlistA-description">Trippie Redd</h4>
+            <h3 class="playlistA-title"> Whole Lotta Red</h3>
+            <h4 class="playlistA-description">Playboi Carti</h4>
           </div>
-          <div class="playlistA">
-            <div class="playlistA-cover">
-              <img src="./images/bad-bunny-cover.png" width="150" height="150" alt="//////////">
-              <button class="buttonIcon is-primary" aria-label="Play" title="Play">
-                <i class="icon-play" aria-hidden="true"></i>
-              </button>
-            </div>
-            <h3 class="playlistA-title"> YHLQMDLG</h3>
-            <h4 class="playlistA-description">Bad Bunny</h4>
-          </div>
+
+
 
         </div>
       </section>
@@ -586,192 +721,87 @@
         </div>
       </section>
     </main>
-    </div>
-
-
-
-
-
-
-  <div class="sidebar">
-    <header class="logo">
-      <a href="/" ariat-current="page">
-        <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
-      </a>
-    </header>
-    <nav class="menu" aria-label="Main Menu">
-      <ul class="menu-list">
-        <li class="menu-item is-active">
-          <a href="/" class="link" aria-current="page">
-            <i class="icon-home" aria-hidden="true"></i>
-            <span>Home</span>
-          </a>
-        </li>
-        <li class="menu-item ">
-          <a href="/" class="link">
-            <i class="icon-search" aria-hidden="true"></i>
-            <span>Search</span>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="/" class="link">
-            <i class="icon-creditCard" aria-hidden="true"></i>
-            <span>Premium</span>
-          </a>
-        </li>
-      </ul>
-
-    </nav>
-    <nav class="list" aria-labelledby="library-navigation">
-      <h2 class="list-title" id="library-navigation">Your Library</h2>
-      <ul class="list-content">
-        <li class="list-item">
-          <a href="#" class="link"> Made for you </a>
-        </li>
-        <li class="list-item">
-          <a href="#" class="link"> Recently Played </a>
-        </li>
-        <li class="list-item">
-          <a href="#" class="link"> Your Likes </a>
-        </li>
-        <li class="list-item">
-          <a href="#" class="link"> Artists </a>
-        </li>
-        <li class="list-item">
-          <a href="#" class="link"> Podcasts </a>
-        </li>
-
-
-
-      </ul>
-    </nav>
-    <nav class="list" aria-labelledby="playlist-navigation">
-      <h2 class="list-title" id="playlist-navigation">Playlists </h2>
-      <ul class="list-content">
-        <li class="list-item">
-          <!-- did not add ellipsis class to show possible overflow difference -->
-          <a href="#" class="link"> Carti playlist</a>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> Juice playlist </a>
-          </span>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> Uzi playlist </a>
-          </span>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> Travis playlist </a>
-          </span>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> Boat playlist </a>
-          </span>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> Gunna playlist </a>
-          </span>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> This is a Baby Keem playlist </a>
-          </span>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> Trippie playlist </a>
-          </span>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> Bad Bunny playlist </a>
-          </span>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="#" class="link"> Audio Library </a>
-          </span>
-        </li>
-      </ul>
-
-    </nav>
+   </div>
   </div>
+ </div>
+ <div class="layout-block">
+    <footer class="layout-bottom">
+      <div class="player">
 
-  <div class="player">
-
-    <div class="player-nowPlaying">
-      <div class="nowPlaying">
-        <div class="nowPlaying-cover">
-          <img src="./images/carti-coverArt.png" width="56" height="56" title="Cover Art Stop Breathing - PlayboiCarti" alt="Cover Art Stop Breathing - PlayboiCarti">
+        <div class="player-nowPlaying">
+          <div class="nowPlaying">
+            <div class="nowPlaying-cover">
+              <img src="./images/carti-coverArt.png" width="56" height="56" title="Cover Art Stop Breathing - PlayboiCarti" alt="Cover Art Stop Breathing - PlayboiCarti">
+            </div>
+            <div class="nowPlaying-details">
+             <div class="nowPlaying-description">
+              <a href="#Stop Breathing" class="nowPlaying-title">
+                Beno!
+              </a>
+              <a href="#PlayboiCarti" class="nowPlaying-artist">
+                PlayboiCarti
+              </a>
+             </div>
+             <div class="nowPlaying-actions">
+              <button class="player-control" role="switch" title="Add to your library" aria-checked="false" aria-label="Save to library" >
+                <i class="icon-heart" aria-hidden="true" ></i>
+              </button>
+             </div>
+            </div>
+          </div>
         </div>
-        <div class="nowPlaying-details">
-         <div class="nowPlaying-description">
-          <a href="#Stop Breathing" class="nowPlaying-title">
-            Stop Breathing
-          </a>
-          <a href="#PlayboiCarti" class="nowPlaying-artist">
-            PlayboiCarti
-          </a>
-         </div>
-         <div class="nowPlaying-actions">
-          <button class="player-control" role="switch" title="Add to your library" aria-label="Save to library" >
-            <i class="icon-heart" aria-hidden="true" ></i>
-          </button>
-         </div>
+
+        <div class="player-playerControls">
+          <div class="playerControls">
+            <div class="playerControls-buttons" aria-label="Player Controls">
+              <button class="buttonIcon" aria-label="Previous" title="Previous">
+                <i class="icon-prev" aria-hidden="true"></i>
+              </button>
+              <button class="buttonIcon is-white" aria-label="Play" title="Play">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+              <button class="buttonIcon" aria-label="Next" title="Next">
+                <i class="icon-next" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="playerPlayback">
+              <span class="playerPlayback-progressTime">01:40</span>
+              <div class="playerPlayback-slider">
+                <div class="slider">
+                  <div class="slider-progress">
+                    <button class="slider-button" aria-label="Control playback progress"></button>
+                  </div>
+                </div>
+
+              </div>
+              <span class="playerPlayback-progressTime">01:40</span>
+            </div>
         </div>
       </div>
-    </div>
 
-    <div class="player-playerControls">
-      <div class="playerControls">
-        <div class="playerControls-buttons" aria-label="Player Controls">
-          <button class="buttonIcon" aria-label="Previous" title="Previous">
-            <i class="icon-prev" aria-hidden="true"></i>
-          </button>
-          <button class="buttonIcon is-white" aria-label="Play" title="Play">
-            <i class="icon-play" aria-hidden="true"></i>
-          </button>
-          <button class="buttonIcon" aria-label="Next" title="Next">
-            <i class="icon-next" aria-hidden="true"></i>
-          </button>
-        </div>
-        <div class="playerPlayback">
-          <span class="playerPlayback-progressTime">01:40</span>
-          <div class="playerPlayback-slider">
-            <div class="slider">
-              <div class="slider-progress">
-                <button class="slider-button" aria-label="Control playback progress"></button>
+        <div class="player-playerVolume">
+          <div class="playerVolume">
+            <button class="player-control" title= "Mute" aria-label="Mute" aria-describedby="volume-icon">
+              <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-hidden="true" aria-label="Volume high"></i>
+            </button>
+            <div class="playerVolume-slider">
+              <div class="slider">
+                <div class="slider-progress">
+                  <button class="slider-button" aria-label="Control playback progress"></button>
+                </div>
               </div>
             </div>
-
           </div>
-          <span class="playerPlayback-progressTime">01:40</span>
-        </div>
-    </div>
-  </div>
 
-    <div class="player-playerVolume">
-      <div class="playerVolume">
-        <button class="player-control" title= "Mute" aria-label="Mute" aria-describedby="volume-icon">
-          <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volume high"></i>
-        </button>
-        <div class="playerVolume-slider">
-          <div class="slider">
-            <div class="slider-progress">
-              <button class="slider-button" aria-label="Control playback progress"></button>
-            </div>
-          </div>
         </div>
+
       </div>
-
+    </footer>
     </div>
 
+
   </div>
+
 
 
 </div>
